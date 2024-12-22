@@ -14,6 +14,13 @@
       core.editor = "nvim";
       pull.rebase = true;
     };
-	
+
+    includes = [
+      {
+        contents.user.email = "roy.langsjo@aalto.fi";
+        condition = "gitdir:~/Kurssit/**";
+      }
+    ];
+        
   };
 }
