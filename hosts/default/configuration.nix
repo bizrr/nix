@@ -12,7 +12,7 @@
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
 
-  users.users.royl = {
+  users.users.langsjo = {
     isNormalUser = true;
     description = "Roy Långsjö";
     extraGroups = [ "networkmanager" "wheel" ];
@@ -27,7 +27,7 @@
   home-manager = {
     extraSpecialArgs = { inherit inputs; };
     users = {
-      "royl" = import ./home.nix;
+      "langsjo" = import ./home.nix;
     };
   };
 

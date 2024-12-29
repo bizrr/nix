@@ -6,8 +6,8 @@
   ];
 
 
-  home.username = "royl";
-  home.homeDirectory = "/home/royl";
+  home.username = "langsjo";
+  home.homeDirectory = "/home/langsjo";
 
   home.packages = [
   ];
